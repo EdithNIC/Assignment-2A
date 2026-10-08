@@ -986,6 +986,30 @@ form#contactForm {
     grid-row: 2 / 3;
   }
 
+  /*######## 10a-vii. Actions, Large screen reles #####. */
+  .action {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .action article {
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
+  .action article h1 {
+    text-align: right;
+    margin-right: 1rem;
+  }
+
+  .action ul {
+  }
+
+  .action ul li {
+  }
+
   /* ######### 10a-vi. Problem, Large screen rules ######### */
   section.problem {
     background: url(../images/problem1.png) no-repeat center left;
