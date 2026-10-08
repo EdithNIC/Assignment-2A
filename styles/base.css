@@ -1005,9 +1005,12 @@ form#contactForm {
   }
 
   .action ul {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .action ul li {
+    flex-basis: 48%;
   }
 
   /* ######### 10a-vi. Problem, Large screen rules ######### */
