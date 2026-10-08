@@ -770,6 +770,13 @@ input[type="radio"]:checked ~ span:before {
 form#contactForm {
   max-width: initial;
   grid-area: f;
+  grid-template-areas:
+    "name ph"
+    "email news"
+    "radio radio"
+    "msg msg"
+    "btn .";
+  gap: 1rem;
 }
 
 .contactForm div {
