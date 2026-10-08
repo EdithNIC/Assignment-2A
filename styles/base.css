@@ -1082,9 +1082,6 @@ form#contactForm {
     grid-template-rows: 1fr 0.25fr;
   }
 
-  .contact {
-  }
-
   .social h3 {
     border-bottom: none;
     padding: 0.5rem 1rem 0.5rem 0;
