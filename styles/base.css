@@ -653,6 +653,9 @@ form#contactForm {
   padding: 0.5rem;
   min-width: 200px;
   width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contactForm button:hover {
@@ -766,6 +769,7 @@ input[type="radio"]:checked ~ span:before {
 /*  ########### NEW CODE START (05_03) ########### */
 form#contactForm {
   max-width: initial;
+  grid-area: f;
 }
 
 .contactForm div {
@@ -1107,7 +1111,8 @@ form#contactForm {
     grid-template-columns: auto minmax(min-content, 580px);
     grid-template-areas:
       ". h"
-      ". p";
+      ". p"
+      ". f";
   }
 
   .form h3 {
