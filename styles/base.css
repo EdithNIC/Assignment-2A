@@ -963,6 +963,8 @@ form#contactForm {
   }
 
   .teamMembers {
+    order: 1;
+    grid-column: 1 / -1;
   }
 
   .team p {
