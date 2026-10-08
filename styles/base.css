@@ -1011,6 +1011,7 @@ form#contactForm {
 
   .action ul li {
     flex-basis: 48%;
+    grid-template-columns: 2fr 4fr;
   }
 
   /* ######### 10a-vi. Problem, Large screen rules ######### */
