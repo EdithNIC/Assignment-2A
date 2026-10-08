@@ -777,18 +777,23 @@ form#contactForm {
 }
 
 .contactForm div:nth-child(1) {
+  grid-area: name;
 }
 
 .contactForm div:nth-child(2) {
+  grid-area: ph;
 }
 
 .contactForm div:nth-child(3) {
+  grid-area: email;
 }
 
 .contactForm div:nth-child(4) {
+  grid-area: radio;
 }
 
 .contactForm div:nth-child(5) {
+  grid-area: msg;
 }
 
 .contactForm div:nth-child(6) {
